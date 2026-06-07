@@ -100,10 +100,10 @@
 
         ARROW {
             bindings = <
-&kp AMPERSAND        &kp AT_SIGN  &kp UP            &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                                 &kp UNDER      &kp LC(KP_PLUS)  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp PLUS
-&kp MINUS            &kp LEFT     &kp DOWN          &kp RIGHT      &kp INT_YEN               &trans                &to 4   &kp PAGE_UP    &kp LC(MINUS)    &kp UP_ARROW    &kp CARET             &trans
-&mt LEFT_SHIFT HASH  &kp PERCENT  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp EQUAL                 &trans                &trans  &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LS(INTERNATIONAL_1)
-&trans               &trans       &trans            &trans         &mt LEFT_SHIFT LS(SPACE)  &lt 2 LANGUAGE_2      &trans  &trans                                                                &trans
+&trans  &trans          &kp UP        &trans     &trans                                        &kp BACKSLASH   &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
+&trans  &kp LEFT        &kp DOWN      &kp RIGHT  &trans            &kp LS(INT3)      &kp HOME  &kp UNDERSCORE  &kp DLLR         &kp PRCNT             &kp AMPS               &kp TILDE
+&trans  &trans          &trans        &trans     &trans            &kp INT3          &kp END   &kp QUESTION    &kp EXCLAMATION  &kp DQT               &kp POUND              &kp RIGHT_SHIFT
+&trans  &kp LEFT_SHIFT  &kp LEFT_WIN  &trans     &kp LEFT_CONTROL  &trans            &trans    &trans                                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
