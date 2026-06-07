@@ -18,28 +18,22 @@
     combos { compatible = "zmk,combos"; };
 
     macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
-        };
     };
 
-        mkp_exit_AML: mkp_exit_AML {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_press>,
-                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
-                <&macro_tap>,
-                <&sl 4>;
+    mkp_exit_AML: mkp_exit_AML {
+        compatible = "zmk,behavior-macro-one-param";
+        #binding-cells = <1>;
+        bindings =
+            <&macro_press>,
+            <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
+            <&macro_pause_for_release>,
+            <&macro_release>,
+            <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
+            <&macro_tap>,
+            <&sl 4>;
 
-            label = "MKP_EXIT_AML";
-        };
+        label = "MKP_EXIT_AML";
+    };
 
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
@@ -88,7 +82,7 @@
             bindings = <
 &trans  &kp F7  &kp F8  &kp F9  &kp F12                             &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
 &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans      &kp SEMICOLON  &kp COLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans      &trans         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans      &kp EQUAL      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
 &trans  &trans  &trans  &trans  &trans   &trans      &trans         &trans                                                  &trans
             >;
 
@@ -106,10 +100,10 @@
 
         ARROW {
             bindings = <
-&kp AMPERSAND        &kp AT_SIGN       &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                                 &kp UNDER      &kp LC(KP_PLUS)  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp PLUS
-&kp MINUS            &kp LEFT_BRACKET  &kp EXCLAMATION    &kp QUESTION   &kp INT_YEN               &trans                &to 4   &kp PAGE_UP    &kp LC(MINUS)    &kp UP_ARROW    &kp CARET             &trans
-&mt LEFT_SHIFT HASH  &kp PERCENT       &kp SINGLE_QUOTE   &kp SEMICOLON  &kp EQUAL                 &trans                &trans  &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LS(INTERNATIONAL_1)
-&trans               &trans            &trans             &trans         &mt LEFT_SHIFT LS(SPACE)  &lt 2 LANGUAGE_2      &trans  &trans                                                                &trans
+&kp AMPERSAND        &kp AT_SIGN  &kp UP            &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                                 &kp UNDER      &kp LC(KP_PLUS)  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp PLUS
+&kp MINUS            &kp LEFT     &kp DOWN          &kp RIGHT      &kp INT_YEN               &trans                &to 4   &kp PAGE_UP    &kp LC(MINUS)    &kp UP_ARROW    &kp CARET             &trans
+&mt LEFT_SHIFT HASH  &kp PERCENT  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp EQUAL                 &trans                &trans  &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LS(INTERNATIONAL_1)
+&trans               &trans       &trans            &trans         &mt LEFT_SHIFT LS(SPACE)  &lt 2 LANGUAGE_2      &trans  &trans                                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
