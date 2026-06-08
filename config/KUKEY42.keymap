@@ -133,7 +133,7 @@
 
         ARROW {
             bindings = <
-&trans  &trans          &kp UP        &trans     &trans                                        &kp BACKSLASH   &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
+&trans  &trans          &kp UP        &trans     &kp LS(LG(S))                                 &kp BACKSLASH   &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
 &trans  &kp LEFT        &kp DOWN      &kp RIGHT  &trans            &kp LS(INT3)      &kp HOME  &kp UNDERSCORE  &kp DLLR         &kp PRCNT             &kp AMPS               &kp TILDE
 &trans  &trans          &trans        &trans     &trans            &kp INT3          &kp END   &kp QUESTION    &kp EXCLAMATION  &kp DQT               &kp POUND              &kp RIGHT_SHIFT
 &trans  &kp LEFT_SHIFT  &kp LEFT_WIN  &trans     &kp LEFT_CONTROL  &trans            &trans    &trans                                                                        &trans
