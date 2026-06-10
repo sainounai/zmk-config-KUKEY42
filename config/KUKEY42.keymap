@@ -102,8 +102,8 @@
 
         default_layer {
             bindings = <
-&kp Q          &kp W           &kp E         &kp R          &kp T                                           &kp Y          &kp U  &kp I      &kp O    &lt 5 P
-&kp A          &kp S           &kp D         &kp F          &kp G             &kp SPACE      &lt 6 HOME     &kp H          &kp J  &kp K      &kp L    &lt 4 MINUS
+&kp Q          &kp W           &kp E         &kp R          &kp T                                           &kp Y          &kp U  &kp I      &kp O    &kp P
+&kp A          &kp S           &kp D         &kp F          &kp G             &kp SPACE      &lt 6 HOME     &kp H          &kp J  &kp K      &kp L    &lt 5 MINUS
 &kp Z          &kp X           &kp C         &kp V          &kp B             &kp TAB        &kp END        &kp N          &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
 &lt 2 JP_EISU  &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LS(LG(S))  &kp LEFT_CONTROL  &kp ENTER      &kp BACKSPACE  &lt 3 JP_KANA                             &mt RIGHT_ALT ESC
             >;
@@ -144,10 +144,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q           &to_layer_0 W           &to_layer_0 E         &to_layer_0 R          &to_layer_0 T                                                           &to_layer_0 Y  &mkp MB4       &mkp MB5           &to_layer_0 O       &to_layer_0 P
-&to_layer_0 A           &to_layer_0 S           &to_layer_0 D         &to_layer_0 F          &to_layer_0 G             &to_layer_0 SPACE      &to 0                  &to_layer_0 H  &mkp MB1       &mkp MB3           &mkp MB2            &lt 5 MINUS
-&to_layer_0 Z           &to_layer_0 X           &to_layer_0 C         &to_layer_0 V          &to_layer_0 B             &to_layer_0 TAB        &trans                 &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 RIGHT_SHIFT
-&to_layer_0 JP_EISU     &to_layer_0 LEFT_SHIFT  &to_layer_0 LEFT_WIN  &to_layer_0 LS(LG(S))  &to_layer_0 LEFT_CONTROL  &to_layer_0 ENTER      &to_layer_0 BACKSPACE  &to_layer_0 JP_KANA                                                  &trans
+&to_layer_0 Q        &to_layer_0 W           &to_layer_0 E         &to_layer_0 R          &to_layer_0 T                                                           &to_layer_0 Y        &mkp MB4       &mkp MB5           &to_layer_0 O       &to_layer_0 P
+&to_layer_0 A        &to_layer_0 S           &to_layer_0 D         &to_layer_0 F          &to_layer_0 G             &to_layer_0 SPACE      &to 0                  &to_layer_0 H        &mkp MB1       &mkp MB3           &mkp MB2            &lt 5 MINUS
+&to_layer_0 Z        &to_layer_0 X           &to_layer_0 C         &to_layer_0 V          &to_layer_0 B             &to_layer_0 TAB        &trans                 &to_layer_0 N        &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 RIGHT_SHIFT
+&to_layer_0 JP_EISU  &to_layer_0 LEFT_SHIFT  &to_layer_0 LEFT_WIN  &to_layer_0 LS(LG(S))  &to_layer_0 LEFT_CONTROL  &to_layer_0 ENTER      &to_layer_0 BACKSPACE  &to_layer_0 JP_KANA                                                        &trans
             >;
         };
 
