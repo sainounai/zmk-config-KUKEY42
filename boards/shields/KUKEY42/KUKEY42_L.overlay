@@ -1,5 +1,9 @@
 #include "KUKEY42.dtsi"
 
+
+#include <behaviors/battery_history_request.dtsi>
+
+
 &kscan0 {
         col-gpios
             = <&xiao_d 10 GPIO_ACTIVE_HIGH>
